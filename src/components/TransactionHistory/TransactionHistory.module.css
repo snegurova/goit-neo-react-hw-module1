@@ -1,0 +1,27 @@
+.table {
+  margin: 50px auto;
+  border-collapse: collapse;
+  font-size: 24px;
+}
+
+.thead {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+.cell {
+  padding: 8px 35px;
+  text-align: center;
+  min-width: 250px;
+  border: 2px solid #000000;
+}
+
+.row:nth-child(2n) {
+  background-color: #d3d3d3;
+}
+
+.firstCol {
+  text-align: left;
+  padding-left: 70px;
+  text-transform: capitalize;
+}
